@@ -7,9 +7,6 @@ from docx.oxml.ns import qn
 from docx.shared import Pt, Length
 from openpyxl import load_workbook
 
-"""
-将Excel表格转换为Word文档
-"""
 
 
 def set_cell_border(cell, **kwargs):
